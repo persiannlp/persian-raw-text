@@ -3,7 +3,7 @@
 The package contains more than 100GBs of free
 The texts are collected from the following sources: 
 
- - Common Crawl: XXGB (link)
+ - [Common Crawl](https://commoncrawl.org/): 65GB ([link](https://storage.googleapis.com/danielk-files/farsi-text/merged_files/commoncrawl_fa_merged.txt))
  - [MirasText](https://github.com/miras-tech/MirasText): 12G ([link](https://storage.googleapis.com/danielk-files/farsi-text/merged_files/MirasText_cleaned.txt))
  - [W2C – Web to Corpus](https://lindat.mff.cuni.cz/repository/xmlui/handle/11858/00-097C-0000-0022-6133-9): 1GB ([link](https://storage.googleapis.com/danielk-files/farsi-text/merged_files/w2c_merged.txt))
  - Persian Wikipedia (March 2020 dump): 787MB ([link](https://storage.googleapis.com/danielk-files/farsi-text/merged_files/fawiki_merged.txt))
@@ -14,7 +14,7 @@ The texts are collected from the following sources:
 
 Each resource is modified get rid of non-text content (urls, html, etc).
 
-**The overall data is [here]() (X GB).**  
+**The overall data is [here]() (~80GB).**  
 
 ## Credits  
 If you find this repo useful, please include a reference to this repository. 
