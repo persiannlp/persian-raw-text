@@ -12,9 +12,11 @@ The texts are collected from the following sources:
  - [Persian poems corpus](https://github.com/amnghd/Persian_poems_corpus): 61MB ([link](https://storage.googleapis.com/danielk-files/farsi-text/merged_files/poems_merged.txt))
  - [TEP: Tehran English-Persian parallel corpus](http://opus.nlpl.eu/TEP.php): 33MB ([link](https://storage.googleapis.com/danielk-files/farsi-text/merged_files/TEP_fa.txt))
 
-Each resource is modified to exclude non-text content (urls, html, etc). I have not done any deduplication; so there might be repeated content. 
+Each resource is modified to exclude non-text content (urls, html, non-utf-8 content, etc). 
+I have also dropped the lines that do **not** contain any Persian text. 
+I have **not** done any deduplication; so there might be repeated content. 
 
-**The overall data is [here](https://storage.googleapis.com/danielk-files/farsi-text/merged_files/all_text_merged.txt) (~79GB).**  
+**The overall data is [here](https://storage.googleapis.com/danielk-files/farsi-text/merged_files/all_text_merged_cleaned.txt) (~70GB, ~13.5million paragraphs).**  
 
 ## Credits  
 If you find this repo useful, please include a reference to this repository. 
