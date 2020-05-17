@@ -18,5 +18,15 @@ I have **not** done any deduplication; so there might be repeated content.
 
 **The overall data is [here](https://storage.googleapis.com/danielk-files/farsi-text/merged_files/all_text_merged_cleaned.txt) (~70GB, ~13.5million paragraphs).**  
 
+
+**Note:** since the files are relatively large, you probably shouldn't download in your browser. 
+A good way to download the files is to use `gsutil` (see the [here](https://cloud.google.com/storage/docs/gsutil_install) for more). This would give details on the total download size, download progress, etc: 
+
+```bash 
+gsutil -m cp -R gs://danielk-files/farsi-text/merged_files/all_text_merged_cleaned.txt  .
+Copying gs://danielk-files/farsi-text/merged_files/all_text_merged_cleaned.txt...
+/ [0/1 files][600.2 MiB/ 69.8 GiB]   0% Done 
+```
+
 ## Credits  
 If you find this repo useful, please include a reference to this repository. 
