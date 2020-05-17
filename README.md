@@ -27,6 +27,19 @@ gsutil -m cp -R gs://danielk-files/farsi-text/merged_files/all_text_merged_clean
 Copying gs://danielk-files/farsi-text/merged_files/all_text_merged_cleaned.txt...
 / [0/1 files][600.2 MiB/ 69.8 GiB]   0% Done 
 ```
+You can also use tools like `wget`: 
+```bash 
+$ wget https://storage.googleapis.com/danielk-files/farsi-text/merged_files/commoncrawl_fa_merged.txt 
+--2020-05-17 14:53:08--  https://storage.googleapis.com/danielk-files/farsi-text/merged_files/commoncrawl_fa_merged.txt
+Resolving storage.googleapis.com (storage.googleapis.com)... 74.125.195.128
+Connecting to storage.googleapis.com (storage.googleapis.com)|74.125.195.128|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 68720495550 (64G) [text/plain]
+Saving to: ‘commoncrawl_fa_merged.txt.1’
+
+commoncrawl_fa_merged.txt.1                    0%[                                                                                              ] 542.30M  55.9MB/s    eta 17m 44s
+```
+
 
 ## Credits  
 If you find this repo useful, please include a reference to this repository. 
