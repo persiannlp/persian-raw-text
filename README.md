@@ -1,7 +1,6 @@
 # Persian Raw Text - متن خام فارسی
 
-The package contains more than 100GBs of free
-The texts are collected from the following sources: 
+The package contains a huge amout of Persian text, collected from the following sources: 
 
  - [Common Crawl](https://commoncrawl.org/): 65GB ([link](https://storage.googleapis.com/danielk-files/farsi-text/merged_files/commoncrawl_fa_merged.txt))
  - [MirasText](https://github.com/miras-tech/MirasText): 12G 
